@@ -1,0 +1,11 @@
+title: 'Alder Rhodes'
+baseline: /
+baseurl: /
+description: 'Portfolio website for Alder Rhodes'
+author:
+  name: Cecil
+  url: 'https://cecil.app'
+image: icon.png
+taxonomies:
+  tags: tag
+theme: alder

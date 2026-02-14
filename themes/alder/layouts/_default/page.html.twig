@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+  <head>
+    {%- block head ~%}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%- block head_metatags ~%}
+    {{- include('partials/metatags.html.twig', {page, site}, with_context = false) ~}}
+    {%- endblock head_metatags ~%}
+    <link rel="stylesheet" type="text/css" href="style.css">
+    {%- endblock head ~%}
+  </head>
+  <body>
+{% if page.hero is defined %}
+<header style="background-image: url(/{{ page.hero  }});">
+{% else %}
+<header>
+{% endif %} 
+    
+      {%- block header ~%}
+      {%- if page.type == 'homepage' ~%}
+      <h1>{{ site.title }}</h1>
+      {%- else ~%}
+      <div class="title">
+        <a href="{{ url(site.home) }}">{{ site.title }}</a>
+      </div>
+      {%- endif ~%}
+      {{- include('partials/navigation.html.twig', {menu: site.menus.main}, with_context = false) ~}}
+      {%- endblock header ~%}
+    </header>
+    <main>
+      {%- block content ~%}
+      {{ page.content }}
+      {%- endblock content ~%}
+      {#- debug ~#}
+      {%- if getenv('CECIL_DEBUG') %}{{ d(page) }}{% endif ~%}
+    </main>
+    <footer>
+      {%- block footer ~%}
+      &copy; 2026 &mdash; A. Rhodes
+      {%- endblock footer ~%}
+    </footer>
+  </body>
+</html>

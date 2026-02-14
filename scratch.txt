@@ -1,0 +1,4 @@
+      {%- set powered_by -%}
+      <a href="{{ cecil.url }}">Cecil</a> &amp; <a href="https://newcss.net">new.css</a>
+      {%- endset ~%}
+      <small>{% trans %}Powered by %powered_by%{% endtrans %}</small>
