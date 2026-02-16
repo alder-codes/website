@@ -4,8 +4,7 @@ title: Work
 
 ### Current Roles
 
-* Veilid Framework, VP of Communications. I was invited to be part of the core team to help with the website and community outreach. Volunteer, unpaid position.
-* Keep the Vote, Board Member. Volunteer, unpaid position.
+* __VP of Communications__, _Veilid Framework_. I am a member of the core team. I help with the website and community outreach. This is a volunteer, unpaid position.
 
 
 ### Past Roles
