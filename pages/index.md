@@ -10,7 +10,12 @@ I am currently seeking full-time employment as a remote web developer.
 
 ## 1-Hour Sessions
 
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/arhodes-codes/tutoring?primary_color=32cd32" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+I offer one-on-one tutoring via Calendly and Jitsi:
+
+<a href="https://calendly.com/arhodes-codes/tutoring">arhodes-codes on Calendly</a>
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/arhodes-codes/tutoring', text: 'Schedule time with me', color: '#008800', textColor: '#ffffff', branding: true }); }</script>
+<!-- Calendly badge widget end -->
