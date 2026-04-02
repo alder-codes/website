@@ -10,13 +10,7 @@ I am currently seeking full-time employment as a remote web developer.
 
 ## 1-Hour Sessions
 
-I am also available to small businesses in one hour sessions where you can get walked through how to use a web technology.
-
-Examples of topics we could cover are
-
-- Intro to Git: How to leverage version control
-- Intro to Web Pages: Beginner HTML and CSS
-- Intro to Web Domains: How to buy and setup a URL
-- Websites for Free: How use free-tier services 
-
-Please email arhodes1@tuta.com to book a session.
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/arhodes-codes/tutoring?primary_color=32cd32" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
